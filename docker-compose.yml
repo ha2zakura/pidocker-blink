@@ -8,4 +8,4 @@ services:
     command: python3 blink.py
     volumes:
       - ./src:/python
-      working_dir: /python
+    working_dir: /python
